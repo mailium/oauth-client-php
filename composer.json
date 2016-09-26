@@ -1,0 +1,28 @@
+{
+    "name": "mailium/oauth-client-php",
+    "description": "Library for authenticating with Mailium Oauth Server",
+    "keywords": ["mailium", "oauth-client"],
+    "type": "library",
+    "license": "GNU GPL v3",
+    "authors": [
+        {
+            "name": "Mailium",
+            "homepage": "https://github.com/mailium/oauth-client-php"
+        }
+    ],
+     "support": {
+        "issues": "https://github.com/mailium/oauth-client-php/issues",
+        "source": "https://github.com/mailium/oauth-client-php"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9",
+        "guzzlehttp/guzzle": "^6.2",
+        "monolog/monolog": "^1.19"
+    },
+    "autoload": {
+        "psr-4": {
+            "MailiumOauthClient\\": "src/"
+        }
+    }
+}
