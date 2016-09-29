@@ -1,4 +1,7 @@
-# Welcome to Mailium Oauth Client for PHP
+# Mailium Oauth Client for PHP
+[![Latest Stable Version](https://poser.pugx.org/mailium/oauth-client-php/v/stable.svg)](https://packagist.org/packages/mailium/oauth-client-php) [![Monthly Downloads](https://poser.pugx.org/mailium/oauth-client-php/d/monthly.png)](https://packagist.org/packages/mailium/oauth-client-php) [![License](https://poser.pugx.org/mailium/oauth-client-php/license.svg)](https://packagist.org/packages/mailium/oauth-client-php) ![Build Status](https://travis-ci.org/mailium/oauth-client-php.svg?branch=master)
+
+
 
 Mailium Oauth Client provides easy to use wrappers for authorizing your application and getting the tokens required to talk to the API.
 
