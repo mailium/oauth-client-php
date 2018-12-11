@@ -40,8 +40,10 @@ class MailiumOauthClient
     const EMBEDDED_APP_JS_REDIRECT_CODE = <<<EOR
                     <html>
                         <head>
+                            <meta http-equiv="refresh" content="0; url=%authorizationUrl%" />
                         </head>
                         <body>
+                            <p><a href="%authorizationUrl%">Click here</a> to authorize this app</p>
                             <script>
                                 window.top.location.href = "%authorizationUrl%";
                             </script>
